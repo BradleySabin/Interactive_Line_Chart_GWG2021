@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>D3 scatterplot</title>
+		<script src="https://d3js.org/d3.v4.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.25.6/d3-legend.min.js"></script>
+
+		<style type="text/css">
+
+		body {
+			font: 12px arial;
+			font-weight: bold;
+		}
+
+		.axis path,
+		.axis line {
+			fill: none;
+			stroke: #000;
+			shape-rendering: crispEdges;
+		}
+
+		.x.axis path {
+			display: none;
+		}
+
+		.line {
+			fill: none;
+			stroke-width: 1.5px;
+		}
+
+		</style>
+	</head>
+	<body>
+
+	<!-- line chart -->	
+	<div class="row pxl-margin-top-xl" >
+        <div class="col-sm-12">
+            <div class="container text-center" style="text-align:center;">
+				<h3 class="pxl-margin-bottom-xl" style="font-family: Arial, Sans-serif; font-size: 16px; color: #000; font-weight: 900;">The Gender Pay Gap Over Time</h3>
+
+				<div id="line_Chart" 
+                     style="text-align:center;"> 
+
+                </div>
+            </div>
+        
+        </div>
+    </div>
+
+		<script type="text/javascript" src="GWG2021_LineChart.js"></script>
+
+
+	</body>
+</html>
